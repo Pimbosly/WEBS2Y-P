@@ -83,3 +83,27 @@ h1 {
 	height: 30%;
 	background-color:green;
 }
+
+.fillin {
+	width: 40%;
+}
+
+.foottitle {
+	font-weight: bold;
+}
+
+.footercolumnleft {
+	float: left;
+}
+
+.footercolumnleft a {
+	text-decoration: none;
+}
+
+.footercolumnright {
+	text-align: center;
+}
+
+.footercolumnright a {
+	text-decoration: none;
+}

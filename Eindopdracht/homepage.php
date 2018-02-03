@@ -1,22 +1,18 @@
 <style>
 <?php include 'electroshop.css'; ?>
 </style>
-<?php ?>
+<?php include 'header.php'; ?>
 
 <html>
     <head>
         <title>Electroshop!</title>
     </head>
     <body>
-        <ul class="nav">
-			<li><a href="homepage.php"><img src="Images\logo.png" /></a></li>
-			<li><a href="laptop.php">Laptop</a></li>
-			<li><a href="games.php">Games</a></li>
-			<li><a href="desktop.php">Desktop</a></li>
-			<li><a href="hardware.php">Hardware</a></li>
-			<li><a href="userpage.php"><img src="Images\userlogo.png" /></a></li>	
-			<li><a href="shoppingcart.php"><img src="Images\cartlogo.gif" /></a></li>
-			<li><a href="logoutpage.php">Log uit</a></li>
-		</ul>
+    <form method="post" action="homepage.php">
+    <input type="text" name="data" id="data" class="fillin" />
+    <input type="submit" name="zoeken" id="zoeken" value="Zoeken" />
+	</form> 
     </body>
 </html>
+
+<?php include 'footer.php'; ?>
