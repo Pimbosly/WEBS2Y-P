@@ -4,19 +4,19 @@ body {
 }
 
 .navdiv {
-	width: 100%;
-	height: 10%;
-    position: absolute;
-    top:0;
-    bottom: 0;
+	position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
     margin: auto;
     background-color:red;
-    float:left;
+    text-align: center;
 }
 .nav {
 	list-style: none; 
+	display: inline-block; 
+	text-align: left;
 }
 
 .nav li {
@@ -40,8 +40,8 @@ body {
 }
 
 .nav li a img {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	
 }
 
@@ -58,9 +58,9 @@ body {
 }
 .WebPage {
 	width: 35%;
+	height: 90%;
     position: absolute;
-    top:0;
-    bottom: 0;
+    top:10%;
     left: 0;
     right: 0;
 	float:left;
@@ -70,12 +70,16 @@ body {
 .picturediv {
 	text-align:left;
 	float: left;
-	width: auto;
+	width: 45%;
+	height: auto;
 	margin-left:10px;
 	margin-right:10px;
-	width: 30%;
 }
 h1 {
 	margin-left:10px;
 	margin-right:10px;
+}
+.contactprofile {
+	height: 30%;
+	background-color:green;
 }
