@@ -1,7 +1,4 @@
 <div class="footer">
-<?php echo "_______________________________________________________________________________________________________________________________________________________________"; ?>
-<br>
-<footer>
 	<div class="footercolumnleft">
 		<div class="foottitle" >
 			<?php echo "Categorie&euml;n" ?>
@@ -18,6 +15,4 @@
 			<a href="contactpage.php">Contact</a>
 		</div>
 	</div>
-	
-	</footer>
 </div>
